@@ -1,0 +1,13 @@
+# Create a directory /user/acadgild/hadoop.
+  hadoop fs -mkdir hadoop
+  
+ # task 2
+ #create file in /user/acadgild/hadoop with name word-count.txt
+ #whatever is typed on screen should get appended to file
+ 
+ hadoop fs -appendToFile - /hadoop/word-count.txt
+ 
+ # we can see the appende contents by below command
+ hadoop fs -cat hadoop/word-count.txt
+ 
+ 
